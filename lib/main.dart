@@ -5,6 +5,8 @@ import 'package:my_gallery_task/presentation/screens/my_gallery_screen/my_galler
 
 void main() {
   configureDependencies();
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 

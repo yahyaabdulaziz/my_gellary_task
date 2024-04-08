@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:my_gallery_task/data/failure.dart';
-import 'package:my_gallery_task/domain/usecase/login_use_case.dart';
+import 'package:my_gallery_task/domain/use_case/login_use_case.dart';
 import 'package:my_gallery_task/presentation/utils/base_request_states.dart';
 
 @injectable
