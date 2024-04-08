@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:my_gallery_task/domain/di/di.dart';
 import 'package:my_gallery_task/presentation/screens/login_screen/login_screen.dart';
 import 'package:my_gallery_task/presentation/screens/my_gallery_screen/my_gallery_screen.dart';
 
 void main() {
+  configureDependencies();
   runApp(const MyApp());
 }
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         LoginScreen.routeName: (_) => const LoginScreen(),
         MyGalleryScreen.routeName: (_) => const MyGalleryScreen(),
       },
-      initialRoute: MyGalleryScreen.routeName,
+      initialRoute: LoginScreen.routeName,
     );
   }
 }

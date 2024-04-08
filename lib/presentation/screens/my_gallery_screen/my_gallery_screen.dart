@@ -64,7 +64,7 @@ class _MyGalleryScreenState extends State<MyGalleryScreen> {
                             SizedBox(
                               width: 4,
                             ),
-                            Text("Log out"),
+                            Text("Log out", style: AppTheme.buttonsTexts),
                           ],
                         ),
                       ),
@@ -88,7 +88,7 @@ class _MyGalleryScreenState extends State<MyGalleryScreen> {
                               SizedBox(
                                 width: 4,
                               ),
-                              Text("Upload"),
+                              Text("Upload", style: AppTheme.buttonsTexts),
                             ],
                           ),
                         ),
@@ -155,7 +155,10 @@ class _MyGalleryScreenState extends State<MyGalleryScreen> {
                       SizedBox(
                         width: 10,
                       ),
-                      Text("Gallery"),
+                      Text(
+                        "Gallery",
+                        style: AppTheme.buttonsDialogTexts,
+                      ),
                     ],
                   ),
                 ),
@@ -178,7 +181,7 @@ class _MyGalleryScreenState extends State<MyGalleryScreen> {
                       SizedBox(
                         width: 10,
                       ),
-                      Text("Camera"),
+                      Text("Camera", style: AppTheme.buttonsDialogTexts),
                     ],
                   ),
                 ),
